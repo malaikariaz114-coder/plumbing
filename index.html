@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سباك 24 ساعة | كشف تسربات المياه وتسليك المجاري – خدمة فورية</title>
+<meta name="description" content="سباك محترف على مدار 24 ساعة: كشف تسربات المياه بالأجهزة الحديثة بدون تكسير، تسليك مجاري، صيانة سخانات، تركيب أطقم حمامات ومطابخ، عزل وتنظيف خزانات. اتصل الآن.">
+<meta name="theme-color" content="#0B3D3A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="images/hero.webp">
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Google Ads / GTM: ضع كود التتبع هنا (gtag.js) -->
+
+<style>
+:root{
+  --dark:#0B3D3A;      /* deep teal */
+  --teal:#0F766E;      /* primary teal */
+  --aqua:#E6F4F2;      /* light tint for cards */
+  --orange:#FF7A1A;    /* call-to-action */
+  --orange-h:#FF8F3D;
+  --ink:#000000; --white:#ffffff; --line:#E3E8E8;
+  --r:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'El Messiri',system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.8;font-size:17px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1180px,100% - 32px);margin-inline:auto}
+h1,h2,h3{line-height:1.35;font-weight:700}
+.sec{padding:84px 0}
+.sec.tint{background:var(--aqua)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--teal);font-weight:700;font-size:15px;margin-bottom:8px}
+.eyebrow::before{content:"";width:26px;height:3px;border-radius:3px;background:var(--orange)}
+.sec-head{max-width:720px;margin-bottom:42px}
+.sec-head h2{font-size:clamp(28px,3.6vw,40px);color:var(--dark)}
+.sec-head p{margin-top:8px}
+.center{text-align:center;margin-inline:auto}
+.center .eyebrow{justify-content:center}
+.ph{background:#cfe3e0}
+
+/* buttons (flat, no shadows) */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:inherit;font-weight:700;font-size:17px;padding:14px 26px;border-radius:12px;border:0;cursor:pointer;transition:background .15s,transform .15s;white-space:nowrap}
+.btn svg{width:20px;height:20px;flex:none}
+.btn:hover{transform:translateY(-2px)}
+.btn-orange{background:var(--orange);color:#fff}
+.btn-orange:hover{background:var(--orange-h)}
+.btn-white{background:#fff;color:var(--dark)}
+.btn-teal{background:var(--teal);color:#fff}
+.btn-outline{background:#fff;color:var(--dark);border:1.5px solid var(--dark)}
+
+/* top bar */
+.topbar{background:var(--dark);color:#fff;font-size:14px}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:8px 0;flex-wrap:wrap}
+.topbar span{display:inline-flex;align-items:center;gap:6px}
+.topbar svg{width:15px;height:15px;color:var(--orange)}
+.live{width:8px;height:8px;border-radius:50%;background:#3ee07a;display:inline-block}
+
+/* header */
+header.nav{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+header.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .mark{width:46px;height:46px;border-radius:12px;background:var(--teal);color:#fff;display:grid;place-items:center}
+.brand .mark svg{width:26px;height:26px}
+.brand b{display:block;font-size:21px;color:#000;line-height:1.2}
+.brand small{display:block;font-size:13px;color:#000}
+.nav-links{display:flex;gap:26px;font-weight:600;color:#000}
+.nav-links a:hover{color:var(--teal)}
+.nav-cta{display:flex;gap:10px}
+.nav-cta .btn{padding:10px 18px;font-size:15.5px}
+
+/* hero */
+.hero{background:var(--dark);color:#fff;position:relative;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding:64px 0 72px}
+.badge{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.45);padding:6px 14px;border-radius:999px;font-size:14.5px;font-weight:600}
+.hero h1{font-size:clamp(32px,4.6vw,54px);margin:18px 0 14px}
+.hero h1 em{font-style:normal;color:var(--orange)}
+.hero p.lead{font-size:clamp(17px,1.6vw,20px);max-width:600px}
+.hero-points{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px 20px;margin:22px 0 28px}
+.hero-points li{display:flex;gap:9px;align-items:center;font-weight:600}
+.hero-points svg{width:22px;height:22px;color:var(--orange);flex:none}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
+.hero-note{margin-top:16px;font-size:15px;display:flex;align-items:center;gap:8px}
+.hero-note svg{width:18px;height:18px;color:var(--orange)}
+.hero-img{position:relative}
+.hero-img img{width:100%;height:auto;aspect-ratio:4/3.3;object-fit:cover;border-radius:20px}
+.hero-img .chip{position:absolute;bottom:18px;inset-inline-start:18px;background:#fff;color:#000;border-radius:14px;padding:12px 16px;display:flex;align-items:center;gap:12px}
+.hero-img .chip .ic{width:42px;height:42px;border-radius:50%;background:var(--orange);color:#fff;display:grid;place-items:center}
+.hero-img .chip .ic svg{width:22px;height:22px}
+.hero-img .chip b{display:block;font-size:17px;line-height:1.3}
+.hero-img .chip small{font-size:14px}
+
+/* trust strip */
+.strip{border-bottom:1px solid var(--line)}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.strip div{padding:24px 16px;text-align:center;border-inline-start:1px solid var(--line)}
+.strip div:first-child{border-inline-start:0}
+.strip b{display:block;font-size:30px;color:var(--teal);line-height:1.2}
+.strip small{font-size:15px;color:#000}
+
+/* problems */
+.prob-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.prob{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;display:flex;gap:12px;align-items:flex-start}
+.prob .ic{width:44px;height:44px;border-radius:12px;background:#FFF1E6;color:var(--orange);display:grid;place-items:center;flex:none}
+.prob .ic svg{width:24px;height:24px}
+.prob b{display:block;color:var(--dark);font-size:17.5px}
+.prob small{font-size:15px;line-height:1.6;display:block}
+.prob-cta{margin-top:28px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;background:var(--dark);color:#fff;border-radius:16px;padding:22px 26px}
+.prob-cta b{font-size:20px}
+
+/* services */
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.svc{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}
+.svc:hover{transform:translateY(-4px);border-color:var(--teal)}
+.svc .img{aspect-ratio:16/10;overflow:hidden}
+.svc .img img{width:100%;height:100%;object-fit:cover}
+.svc .body{padding:20px 22px 22px;display:flex;flex-direction:column;flex:1}
+.svc h3{font-size:21px;color:var(--dark);display:flex;align-items:center;gap:10px}
+.svc h3 .ic{width:38px;height:38px;border-radius:10px;background:var(--aqua);color:var(--teal);display:grid;place-items:center;flex:none}
+.svc h3 .ic svg{width:21px;height:21px}
+.svc p{font-size:15.5px;margin:8px 0 14px;flex:1}
+.svc .more{display:inline-flex;align-items:center;gap:7px;color:var(--teal);font-weight:700;font-size:15.5px}
+.svc .more svg{width:18px;height:18px}
+
+/* split (leak detection highlight) */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.split .pic img{width:100%;height:auto;aspect-ratio:4/3.2;object-fit:cover;border-radius:var(--r)}
+.split h2{font-size:clamp(27px,3.4vw,38px);color:var(--dark)}
+.split p{margin:12px 0 18px}
+.ticks{list-style:none;display:grid;gap:10px;margin-bottom:24px}
+.ticks li{display:flex;gap:10px;align-items:flex-start;font-weight:600}
+.ticks svg{width:22px;height:22px;flex:none;color:var(--teal);margin-top:3px}
+
+/* why */
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.why{padding:26px;border-radius:var(--r);background:#fff;border:1px solid var(--line)}
+.why .ic{width:52px;height:52px;border-radius:14px;background:var(--teal);color:#fff;display:grid;place-items:center;margin-bottom:14px}
+.why .ic svg{width:26px;height:26px}
+.why h3{color:var(--dark);font-size:20px}
+.why p{font-size:15.5px;margin-top:6px}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:s}
+.step{position:relative;padding:30px 22px 22px;border-radius:var(--r);background:#fff;border:1px solid var(--line);counter-increment:s}
+.step::before{content:counter(s);position:absolute;top:-18px;inset-inline-start:22px;width:40px;height:40px;border-radius:50%;background:var(--orange);color:#fff;display:grid;place-items:center;font-weight:700;font-size:19px;border:4px solid var(--aqua)}
+.step h3{color:var(--dark);font-size:19px}
+.step p{font-size:15px}
+
+/* areas */
+.areas{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.areas span{border:1.5px solid var(--line);border-radius:999px;padding:8px 18px;font-weight:600;background:#fff}
+
+/* faq */
+.faq{max-width:860px;margin-inline:auto}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:12px;overflow:hidden}
+.faq summary{list-style:none;cursor:pointer;padding:18px 22px;font-weight:700;color:var(--dark);font-size:18px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:26px;color:var(--orange);line-height:1;transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{padding:0 22px 18px}
+
+/* final */
+.final{background:var(--dark);color:#fff}
+.final .wrap{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.final h2{font-size:clamp(28px,3.6vw,42px)}
+.final h2 em{font-style:normal;color:var(--orange)}
+.final p{margin:12px 0 24px}
+.phones{display:grid;gap:14px}
+.phone-card{display:flex;align-items:center;gap:16px;padding:18px 22px;border-radius:16px;border:1px solid rgba(255,255,255,.25);transition:background .2s}
+.phone-card:hover{background:rgba(255,255,255,.08)}
+.phone-card .ic{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;flex:none}
+.phone-card .ic svg{width:24px;height:24px}
+.phone-card small{display:block}
+.phone-card b{font-size:24px;direction:ltr;display:inline-block}
+
+footer{background:#000;color:#fff;font-size:14.5px;padding:30px 0 100px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+
+/* floating + mobile bar */
+.wa-float{position:fixed;bottom:24px;inset-inline-start:24px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center}
+.wa-float svg{width:32px;height:32px}
+.mbar{position:fixed;bottom:0;inset-inline:0;z-index:60;display:none;grid-template-columns:1fr 1fr;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line)}
+.mbar .btn{padding:13px 10px;font-size:16px}
+
+@media (max-width:1020px){
+  .nav-links{display:none}
+  .hero .wrap,.split,.final .wrap{grid-template-columns:1fr}
+  .svc-grid,.why-grid,.steps{grid-template-columns:repeat(2,1fr)}
+  .prob-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:680px){
+  body{font-size:16px}
+  .sec{padding:60px 0}
+  .topbar,.nav-cta{display:none}
+  header.nav .wrap{justify-content:center}
+  .hero .wrap{padding:36px 0 46px;gap:28px}
+  .hero-points{grid-template-columns:1fr}
+  .hero-ctas .btn{flex:1}
+  .strip .wrap{grid-template-columns:1fr 1fr}
+  .strip div{border-inline-start:0;border-bottom:1px solid var(--line);padding:18px 10px}
+  .strip b{font-size:22px}
+  .strip div:nth-child(odd){border-inline-end:1px solid var(--line)}
+  .svc-grid,.why-grid,.steps,.prob-grid{grid-template-columns:1fr}
+  .steps{gap:30px}
+  .split .txt{order:1}.split .pic{order:2}
+  .prob-cta .btn{width:100%}
+  .mbar{display:grid}
+  .wa-float{display:none}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-drop" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6z"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M14.7 6.3a4 4 0 0 0 5 5L21 13l-1.5 1.5-1.3-1.3a4 4 0 0 1-5-5L3 18.4 5.6 21 15.9 10.7"/></symbol>
+  <symbol id="i-pipe" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M3 8h8a3 3 0 0 1 3 3v10M3 12h7a0 0 0 0 1 0 0v9"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M3 6v8M8 21h8"/></symbol>
+  <symbol id="i-fire" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 3s5 4.5 5 10a5 5 0 0 1-10 0c0-2.5 1.5-4 1.5-4S9 11 11 11c0-3 1-6 1-8z"/></symbol>
+  <symbol id="i-bath" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M3 12h18v2a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5zM6 12V5a2 2 0 0 1 4 0M7 19l-1 2M17 19l1 2"/></symbol>
+  <symbol id="i-tank" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path fill="none" stroke="currentColor" stroke-width="2" d="M5 10h14M9 4V2h6v2"/></symbol>
+  <symbol id="i-pump" viewBox="0 0 24 24"><circle cx="10" cy="13" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M16 13h5M10 7V3M10 13l3-2"/></symbol>
+  <symbol id="i-scan" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3M7 12h10"/></symbol>
+  <symbol id="i-tag" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M3 12V4a1 1 0 0 1 1-1h8l9 9-9 9z"/><circle cx="7.5" cy="7.5" r="1.5" fill="currentColor"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 21a8 8 0 0 1 16 0"/></symbol>
+  <symbol id="i-broom" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M19 3 12 10M8 11l5 5-3 5H4l-1-3 5-7zM6 21l1.5-3M9 21l1-2"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M19 12H5m6-6-6 6 6 6"/></symbol>
+</svg>
+
+<div class="topbar">
+  <div class="wrap">
+    <span><i class="live"></i> متاحون الآن – خدمة طوارئ 24 ساعة</span>
+    <span><svg><use href="#i-pin"/></svg> نخدم جميع أحياء <span class="js-city">الرياض</span></span>
+    <span><svg><use href="#i-phone"/></svg> <a href="#" class="js-call js-phone-text" dir="ltr">05XXXXXXXX</a></span>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="wrap">
+    <a href="#top" class="brand">
+      <span class="mark"><svg><use href="#i-drop"/></svg></span>
+      <div><b class="js-brand">سباك برو</b><small>كشف تسربات • سباكة • تسليك</small></div>
+    </a>
+    <nav class="nav-links">
+      <a href="#services">الخدمات</a>
+      <a href="#leak">كشف التسربات</a>
+      <a href="#why">لماذا نحن</a>
+      <a href="#faq">الأسئلة الشائعة</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="#" class="btn btn-outline js-wa"><svg><use href="#i-wa"/></svg> واتساب</a>
+      <a href="#" class="btn btn-orange js-call"><svg><use href="#i-phone"/></svg> اتصل الآن</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="badge"><i class="live"></i> سباك متاح الآن في <span class="js-city">الرياض</span></span>
+      <h1>تسريب مياه أو انسداد؟ <em>سبّاك محترف</em> يصلك بسرعة</h1>
+      <p class="lead">كشف تسربات المياه بالأجهزة الحديثة بدون تكسير، تسليك المجاري، صيانة السخانات وتركيب الأطقم — فنيين خبرة وأسعار واضحة قبل بدء العمل.</p>
+      <ul class="hero-points">
+        <li><svg><use href="#i-check"/></svg> خدمة طوارئ 24 ساعة / 7 أيام</li>
+        <li><svg><use href="#i-check"/></svg> كشف إلكتروني بدون تكسير</li>
+        <li><svg><use href="#i-check"/></svg> سعر واضح قبل بدء العمل</li>
+        <li><svg><use href="#i-check"/></svg> ضمان على الأعمال المنفذة</li>
+      </ul>
+      <div class="hero-ctas">
+        <a href="#" class="btn btn-orange js-call"><svg><use href="#i-phone"/></svg> اتصل الآن: <span class="js-phone-text" dir="ltr">05XXXXXXXX</span></a>
+        <a href="#" class="btn btn-white js-wa"><svg><use href="#i-wa"/></svg> أرسل صورة المشكلة واتساب</a>
+      </div>
+      <div class="hero-note"><svg><use href="#i-clock"/></svg> نرد على الاتصالات والرسائل على مدار الساعة</div>
+    </div>
+    <div class="hero-img">
+      <img class="ph" src="images/hero.webp" alt="سباك يصلح تمديدات تحت المغسلة" width="740" height="493">
+      <div class="chip"><span class="ic"><svg><use href="#i-wrench"/></svg></span><div><b>فنيين متخصصين</b><small>سباكة • تسربات • سخانات</small></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<section class="strip">
+  <div class="wrap">
+    <div><b>24/7</b><small>خدمة طوارئ</small></div>
+    <div><b>بدون تكسير</b><small>كشف تسربات إلكتروني</small></div>
+    <div><b>ضمان</b><small>على الأعمال المنفذة</small></div>
+    <div><b>أسعار واضحة</b><small>قبل بدء العمل</small></div>
+  </div>
+</section>
+
+<!-- PROBLEMS -->
+<section class="sec tint">
+  <div class="wrap">
+    <div class="sec-head center">
+      <span class="eyebrow">هل تعاني من هذه المشاكل؟</span>
+      <h2>لا تنتظر حتى تكبر المشكلة… كل دقيقة تسريب تكلّفك أكثر</h2>
+    </div>
+    <div class="prob-grid">
+      <div class="prob"><span class="ic"><svg><use href="#i-drop"/></svg></span><div><b>فاتورة مياه مرتفعة</b><small>ارتفاع مفاجئ بدون سبب واضح = تسريب مخفي</small></div></div>
+      <div class="prob"><span class="ic"><svg><use href="#i-drop"/></svg></span><div><b>رطوبة وبقع على الجدران</b><small>تقشّر الدهان وظهور العفن والروائح</small></div></div>
+      <div class="prob"><span class="ic"><svg><use href="#i-pipe"/></svg></span><div><b>انسداد المجاري</b><small>بطء تصريف المغاسل والحمامات وطفح البلاعات</small></div></div>
+      <div class="prob"><span class="ic"><svg><use href="#i-fire"/></svg></span><div><b>السخان لا يعمل</b><small>ماء بارد أو تسريب من السخان أو انقطاع</small></div></div>
+      <div class="prob"><span class="ic"><svg><use href="#i-tank"/></svg></span><div><b>تسريب الخزان</b><small>الخزان يفرغ بسرعة أو ماء متجمع حوله</small></div></div>
+      <div class="prob"><span class="ic"><svg><use href="#i-pump"/></svg></span><div><b>ضعف ضغط المياه</b><small>مشكلة في الماطور أو التمديدات</small></div></div>
+      <div class="prob"><span class="ic"><svg><use href="#i-bath"/></svg></span><div><b>تسريب من الحمام أو المطبخ</b><small>خلاطات، سيفونات، مغاسل وأطقم تالفة</small></div></div>
+      <div class="prob"><span class="ic"><svg><use href="#i-wrench"/></svg></span><div><b>تمديدات قديمة</b><small>مواسير متآكلة تحتاج تغيير أو تجديد</small></div></div>
+    </div>
+    <div class="prob-cta">
+      <b>عندك أي مشكلة من هذه؟ الحل عندنا اليوم.</b>
+      <a href="#" class="btn btn-orange js-call"><svg><use href="#i-phone"/></svg> اتصل بالسبّاك الآن</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="sec" id="services">
+  <div class="wrap">
+    <div class="sec-head center">
+      <span class="eyebrow">خدماتنا</span>
+      <h2>جميع خدمات السباكة في مكان واحد</h2>
+      <p>اضغط «اطلب الخدمة» لتصلنا رسالتك مباشرة على واتساب</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc"><div class="img ph"><img src="images/leak-pipe.webp" alt="كشف تسربات المياه" loading="lazy"></div><div class="body">
+        <h3><span class="ic"><svg><use href="#i-scan"/></svg></span>كشف تسربات المياه</h3>
+        <p>تحديد مكان التسريب بدقة بالأجهزة الإلكترونية الحديثة بدون تكسير، مع تقرير وإصلاح فوري.</p>
+        <a href="#" class="more js-wa" data-svc="كشف تسربات المياه">اطلب الخدمة <svg><use href="#i-arrow"/></svg></a></div></article>
+
+      <article class="svc"><div class="img ph"><img src="images/drain.webp" alt="تسليك المجاري" loading="lazy"></div><div class="body">
+        <h3><span class="ic"><svg><use href="#i-pipe"/></svg></span>تسليك المجاري والبلاعات</h3>
+        <p>فتح انسدادات المغاسل والحمامات والمطابخ وخطوط الصرف بمعدات حديثة وبدون فوضى.</p>
+        <a href="#" class="more js-wa" data-svc="تسليك المجاري">اطلب الخدمة <svg><use href="#i-arrow"/></svg></a></div></article>
+
+      <article class="svc"><div class="img ph"><img src="images/heater.webp" alt="صيانة السخانات" loading="lazy"></div><div class="body">
+        <h3><span class="ic"><svg><use href="#i-fire"/></svg></span>صيانة وتركيب السخانات</h3>
+        <p>إصلاح أعطال السخانات وتغيير القطع وتركيب سخانات جديدة بأمان وتوصيل صحيح.</p>
+        <a href="#" class="more js-wa" data-svc="صيانة وتركيب السخانات">اطلب الخدمة <svg><use href="#i-arrow"/></svg></a></div></article>
+
+      <article class="svc"><div class="img ph"><img src="images/bathroom.webp" alt="تركيب أطقم الحمامات" loading="lazy"></div><div class="body">
+        <h3><span class="ic"><svg><use href="#i-bath"/></svg></span>تركيب أطقم الحمامات والمطابخ</h3>
+        <p>تركيب وتغيير الخلاطات والمغاسل والكراسي والشطافات والسيفونات بتشطيب نظيف.</p>
+        <a href="#" class="more js-wa" data-svc="تركيب أطقم الحمامات والمطابخ">اطلب الخدمة <svg><use href="#i-arrow"/></svg></a></div></article>
+
+      <article class="svc"><div class="img ph"><img src="images/pipes.webp" alt="تمديدات السباكة" loading="lazy"></div><div class="body">
+        <h3><span class="ic"><svg><use href="#i-wrench"/></svg></span>تمديدات وتأسيس السباكة</h3>
+        <p>تأسيس شبكات المياه والصرف للفلل والشقق والمحلات، وتغيير المواسير القديمة.</p>
+        <a href="#" class="more js-wa" data-svc="تمديدات وتأسيس السباكة">اطلب الخدمة <svg><use href="#i-arrow"/></svg></a></div></article>
+
+      <article class="svc"><div class="img ph"><img src="images/tank.webp" alt="عزل وتنظيف الخزانات" loading="lazy"></div><div class="body">
+        <h3><span class="ic"><svg><use href="#i-tank"/></svg></span>عزل وتنظيف الخزانات</h3>
+        <p>تنظيف وتعقيم الخزانات الأرضية والعلوية، وعزلها ومعالجة تسرباتها.</p>
+        <a href="#" class="more js-wa" data-svc="عزل وتنظيف الخزانات">اطلب الخدمة <svg><use href="#i-arrow"/></svg></a></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- LEAK HIGHLIGHT -->
+<section class="sec tint" id="leak">
+  <div class="wrap split">
+    <div class="txt">
+      <span class="eyebrow">الأكثر طلباً</span>
+      <h2>كشف تسربات المياه بالأجهزة الحديثة — بدون تكسير</h2>
+      <p>نحدد مكان التسريب بدقة باستخدام أجهزة كشف إلكترونية، فنكسر فقط النقطة المطلوبة بدل تكسير الجدار أو الأرضية كاملة. توفير في الوقت والتكلفة وبدون فوضى.</p>
+      <ul class="ticks">
+        <li><svg><use href="#i-check"/></svg> كشف تسربات الحمامات والمطابخ والأسطح</li>
+        <li><svg><use href="#i-check"/></svg> كشف تسربات الخزانات الأرضية والعلوية</li>
+        <li><svg><use href="#i-check"/></svg> كشف تسربات المسابح وخطوط المياه المدفونة</li>
+        <li><svg><use href="#i-check"/></svg> إصلاح فوري بعد تحديد مكان التسريب</li>
+      </ul>
+      <a href="#" class="btn btn-orange js-call"><svg><use href="#i-phone"/></svg> احجز كشف التسربات الآن</a>
+    </div>
+    <div class="pic"><img class="ph" src="images/leak-device.webp" alt="جهاز كشف تسربات المياه الإلكتروني" loading="lazy" width="870" height="460"></div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="sec" id="why">
+  <div class="wrap">
+    <div class="sec-head center">
+      <span class="eyebrow">لماذا تختارنا؟</span>
+      <h2>سباكة بدون صداع</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why"><div class="ic"><svg><use href="#i-clock"/></svg></div><h3>متاحون 24 ساعة</h3><p>طوارئ الليل والإجازات؟ اتصل في أي وقت ونرسل لك فني.</p></div>
+      <div class="why"><div class="ic"><svg><use href="#i-user"/></svg></div><h3>فنيين خبرة</h3><p>سبّاكين متخصصين يعرفون المشكلة من أول زيارة.</p></div>
+      <div class="why"><div class="ic"><svg><use href="#i-tag"/></svg></div><h3>سعر واضح مقدماً</h3><p>نعطيك السعر قبل البدء، بدون رسوم مخفية أو مفاجآت.</p></div>
+      <div class="why"><div class="ic"><svg><use href="#i-scan"/></svg></div><h3>أجهزة حديثة</h3><p>كشف إلكتروني دقيق يوفر عليك التكسير والتكلفة.</p></div>
+      <div class="why"><div class="ic"><svg><use href="#i-shield"/></svg></div><h3>ضمان على العمل</h3><p>نضمن جودة الإصلاح ونرجع لك إذا تكررت المشكلة.</p></div>
+      <div class="why"><div class="ic"><svg><use href="#i-broom"/></svg></div><h3>نظافة بعد العمل</h3><p>نحافظ على بيتك ونترك المكان نظيفاً بعد الانتهاء.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- STEPS -->
+<section class="sec tint">
+  <div class="wrap">
+    <div class="sec-head center">
+      <span class="eyebrow">كيف نعمل</span>
+      <h2>من الاتصال إلى حل المشكلة في 4 خطوات</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>اتصل أو أرسل واتساب</h3><p>اشرح المشكلة أو أرسل صورة لها.</p></div>
+      <div class="step"><h3>يصلك الفني</h3><p>نرسل أقرب فني إلى موقعك.</p></div>
+      <div class="step"><h3>تشخيص وسعر واضح</h3><p>نحدد المشكلة ونعطيك السعر قبل البدء.</p></div>
+      <div class="step"><h3>إصلاح وضمان</h3><p>ننفذ العمل باحترافية مع ضمان.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- AREAS -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head center">
+      <span class="eyebrow">مناطق الخدمة</span>
+      <h2>نخدم جميع أحياء <span class="js-city">الرياض</span></h2>
+      <p>شمال وجنوب وشرق وغرب المدينة — اتصل وتأكد من وصولنا لحيّك</p>
+    </div>
+    <div class="areas">
+      <span>شمال المدينة</span><span>جنوب المدينة</span><span>شرق المدينة</span><span>غرب المدينة</span><span>وسط المدينة</span><span>الفلل</span><span>الشقق والعمائر</span><span>المحلات والمطاعم</span>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec tint" id="faq">
+  <div class="wrap">
+    <div class="sec-head center">
+      <span class="eyebrow">الأسئلة الشائعة</span>
+      <h2>عندك سؤال؟</h2>
+    </div>
+    <div class="faq">
+      <details open><summary>هل تعملون في الليل والإجازات؟</summary><p>نعم، خدمة الطوارئ متاحة 24 ساعة طوال أيام الأسبوع بما فيها الإجازات.</p></details>
+      <details><summary>هل كشف التسربات يحتاج تكسير؟</summary><p>لا، نستخدم أجهزة كشف إلكترونية تحدد مكان التسريب بدقة، ونفتح فقط النقطة المحددة للإصلاح.</p></details>
+      <details><summary>كم تكلفة الخدمة؟</summary><p>تختلف حسب نوع المشكلة. بعد التشخيص نعطيك سعراً واضحاً ونهائياً قبل البدء، ولا نبدأ إلا بموافقتك.</p></details>
+      <details><summary>هل يوجد ضمان على الإصلاح؟</summary><p>نعم، نقدم ضماناً على الأعمال المنفذة، وإذا تكررت نفس المشكلة نرجع لك.</p></details>
+      <details><summary>كيف أطلب السبّاك؟</summary><p>اتصل بنا مباشرة أو أرسل رسالة واتساب مع صورة المشكلة وموقعك، وسنرد عليك فوراً.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="sec final">
+  <div class="wrap">
+    <div>
+      <h2>مشكلة سباكة الآن؟ <em>اتصل</em> ودعها علينا</h2>
+      <p>تسريب، انسداد، سخان أو تمديدات — فني محترف في طريقه إليك.</p>
+      <a href="#" class="btn btn-orange js-call"><svg><use href="#i-phone"/></svg> اتصل الآن</a>
+    </div>
+    <div class="phones">
+      <a href="#" class="phone-card js-call"><span class="ic" style="background:var(--orange);color:#fff"><svg><use href="#i-phone"/></svg></span><div><small>اتصل مباشرة – 24 ساعة</small><b class="js-phone-text">05XXXXXXXX</b></div></a>
+      <a href="#" class="phone-card js-wa"><span class="ic" style="background:#fff;color:var(--dark)"><svg><use href="#i-wa"/></svg></span><div><small>أرسل صورة المشكلة على واتساب</small><b class="js-phone-text">05XXXXXXXX</b></div></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b class="js-brand">سباك برو</b> – خدمات السباكة وكشف التسربات في <span class="js-city">الرياض</span></div>
+    <div>© <span id="yr"></span> جميع الحقوق محفوظة · <a href="#" style="text-decoration:underline">سياسة الخصوصية</a></div>
+  </div>
+</footer>
+
+<a href="#" class="wa-float js-wa" aria-label="واتساب"><svg><use href="#i-wa"/></svg></a>
+<div class="mbar">
+  <a href="#" class="btn btn-orange js-call"><svg><use href="#i-phone"/></svg> اتصل الآن</a>
+  <a href="#" class="btn btn-teal js-wa"><svg><use href="#i-wa"/></svg> واتساب</a>
+</div>
+
+<script>
+/* ====== عدّل بيانات النشاط من هنا فقط ====== */
+var CONFIG = {
+  brand: 'سباك برو',          // اسم النشاط
+  city:  'الرياض',            // المدينة
+  phoneDisplay: '05XXXXXXXX', // الرقم كما يظهر
+  phoneIntl: '9665XXXXXXXX',  // الرقم بالصيغة الدولية بدون + (للاتصال والواتساب)
+};
+/* =========================================== */
+
+function track(type){ if(window.gtag){ gtag('event', type==='call'?'click_to_call':'whatsapp_click'); } if(window.dataLayer){ dataLayer.push({event:type+'_click'}); } }
+function waLink(t){ return 'https://wa.me/'+CONFIG.phoneIntl+'?text='+encodeURIComponent(t); }
+
+document.querySelectorAll('.js-brand').forEach(function(e){e.textContent=CONFIG.brand;});
+document.querySelectorAll('.js-city').forEach(function(e){e.textContent=CONFIG.city;});
+document.querySelectorAll('.js-phone-text').forEach(function(e){e.textContent=CONFIG.phoneDisplay;});
+document.querySelectorAll('.js-call').forEach(function(a){
+  a.href='tel:+'+CONFIG.phoneIntl;
+  a.addEventListener('click',function(){track('call');});
+});
+document.querySelectorAll('.js-wa').forEach(function(a){
+  var s=a.getAttribute('data-svc');
+  a.href=waLink(s?('السلام عليكم، أحتاج خدمة: '+s+' — في '+CONFIG.city):'السلام عليكم، أحتاج سبّاك في '+CONFIG.city);
+  a.target='_blank'; a.rel='noopener';
+  a.addEventListener('click',function(){track('whatsapp');});
+});
+document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
